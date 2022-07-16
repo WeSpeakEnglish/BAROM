@@ -1,0 +1,8 @@
+Change Component Comment : Designator=R5 Old Comment=510k New Comment=270k
+Added Component: Designator=DD1(DS18B20)
+Added Pin To Net: NetName=GND Pin=DD1-1
+Added Pin To Net: NetName=NetDD1_2 Pin=DD1-2
+Added Pin To Net: NetName=VCC Pin=DD1-3
+Change Class Name : Old Net Name=HUM_SENS New Net Name=TEMP_SENS
+Added Member To Class: ClassName=TEMP_SENS Member=Component DD1 DS18B20
+Added Room: Name=TEMP_SENS

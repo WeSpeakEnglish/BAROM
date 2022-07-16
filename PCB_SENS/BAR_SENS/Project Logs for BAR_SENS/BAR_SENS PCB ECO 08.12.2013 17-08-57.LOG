@@ -1,0 +1,51 @@
+Added Component: Designator=C1(Cap_0805)
+Added Component: Designator=C2(Cap_0805)
+Added Component: Designator=DD1(BMP085)
+Added Component: Designator=R1(Res_0805)
+Added Component: Designator=R2(Res_0805)
+Added Component: Designator=R3(Res_0805)
+Added Component: Designator=R4(Res_0805)
+Added Component: Designator=R5(Res_0805)
+Added Component: Designator=XP1(SENS_LEGS)
+Added Pin To Net: NetName=5V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=VCC Pin=C2-2
+Added Pin To Net: NetName=GND Pin=DD1-1
+Added Pin To Net: NetName=VCC Pin=DD1-3
+Added Pin To Net: NetName=VCC Pin=DD1-4
+Added Pin To Net: NetName=NetBQ1_1 Pin=DD1-6
+Added Pin To Net: NetName=NetBQ1_2 Pin=DD1-7
+Added Pin To Net: NetName=+12V Pin=DD1-8
+Added Pin To Net: NetName=+12V Pin=R1-1
+Added Pin To Net: NetName=NetBQ2_1 Pin=R1-2
+Added Pin To Net: NetName=VCC Pin=R2-1
+Added Pin To Net: NetName=NetBQ1_1 Pin=R2-2
+Added Pin To Net: NetName=VCC Pin=R3-1
+Added Pin To Net: NetName=NetBQ1_2 Pin=R3-2
+Added Pin To Net: NetName=5V Pin=R4-1
+Added Pin To Net: NetName=VCC Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=5V Pin=R5-2
+Added Pin To Net: NetName=VCC Pin=XP1-1
+Added Pin To Net: NetName=NetBQ1_1 Pin=XP1-2
+Added Pin To Net: NetName=NetBQ1_2 Pin=XP1-3
+Added Pin To Net: NetName=5V Pin=XP1-4
+Added Pin To Net: NetName=NetBQ2_1 Pin=XP1-5
+Added Pin To Net: NetName=GND Pin=XP1-6
+Change Net Name : Old Net Name=+12V New Net Name=XCLR
+Change Net Name : Old Net Name=5V New Net Name=NetC1_1
+Change Net Name : Old Net Name=NetBQ1_1 New Net Name=NetDD1_6
+Change Net Name : Old Net Name=NetBQ1_2 New Net Name=NetDD1_7
+Change Net Name : Old Net Name=NetBQ2_1 New Net Name=NetR1_2
+Change Class Name : Old Net Name=PANEL New Net Name=BAR_SENS
+Added Member To Class: ClassName=BAR_SENS Member=Component C1 0,01uF
+Added Member To Class: ClassName=BAR_SENS Member=Component C2 0.47uF
+Added Member To Class: ClassName=BAR_SENS Member=Component DD1 BMP085
+Added Member To Class: ClassName=BAR_SENS Member=Component R1 4.7k
+Added Member To Class: ClassName=BAR_SENS Member=Component R2 10k
+Added Member To Class: ClassName=BAR_SENS Member=Component R3 10k
+Added Member To Class: ClassName=BAR_SENS Member=Component R4 1M
+Added Member To Class: ClassName=BAR_SENS Member=Component R5 1M
+Added Member To Class: ClassName=BAR_SENS Member=Component XP1 BAR_SENS
+Added Room: Name=BAR_SENS

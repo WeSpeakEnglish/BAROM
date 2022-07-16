@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=NetDD1_6 Pin=R2-2
+Removed Pin From Net: NetName=NetDD1_7 Pin=R3-2
+Removed Pin From Net: NetName=NetDD1_6 Pin=XP1-2
+Removed Pin From Net: NetName=NetDD1_7 Pin=XP1-3
+Change Component Comment : Designator=R5 Old Comment=1M New Comment=510k
+Added Component: Designator=DD1(SHT10)
+Added Pin To Net: NetName=GND Pin=DD1-1
+Added Pin To Net: NetName=NetDD1_6 Pin=DD1-2
+Added Pin To Net: NetName=NetDD1_7 Pin=DD1-3
+Added Pin To Net: NetName=VCC Pin=DD1-4
+Added Pin To Net: NetName=NetDD1_7 Pin=R2-2
+Added Pin To Net: NetName=NetDD1_6 Pin=R3-2
+Added Pin To Net: NetName=NetDD1_7 Pin=XP1-2
+Added Pin To Net: NetName=NetDD1_6 Pin=XP1-3
+Change Net Name : Old Net Name=NetDD1_6 New Net Name=NetDD1_2
+Change Net Name : Old Net Name=NetDD1_7 New Net Name=NetDD1_3
+Change Class Name : Old Net Name=BAR_SENS New Net Name=HUM_SENS
+Added Member To Class: ClassName=HUM_SENS Member=Component DD1 SHT10
+Added Room: Name=HUM_SENS
